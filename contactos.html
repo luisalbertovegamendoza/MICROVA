@@ -1,0 +1,545 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | MICROVA - Biotecnología Amazónica</title>
+    <meta name="description" content="Conecta con MICROVA. Conversemos sobre biotecnología, biofertilizantes, biopesticidas y oportunidades de colaboración.">
+    <meta name="theme-color" content="#062D2B">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-microva fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.jpeg"
+                     alt="MICROVA - Biotecnología Amazónica"
+                     class="logo">
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMicrova"
+                    aria-controls="navbarMicrova"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMicrova">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="proceso.html">Proceso</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+
+                <a href="#formulario-contacto" class="btn btn-navbar">
+                    Hablemos
+                    <i class="bi bi-arrow-up-right ms-2"></i>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO CONTACTO -->
+    <header class="contacto-hero">
+
+        <div class="contacto-hero-overlay"></div>
+
+        <div class="container contacto-hero-content">
+
+            <span class="contacto-eyebrow">
+                <i class="bi bi-chat-dots me-2"></i>
+                ESTAMOS PARA ESCUCHARTE
+            </span>
+
+            <h1 class="contacto-hero-title">
+                Las grandes ideas
+                <span>comienzan con una conversación.</span>
+            </h1>
+
+            <p class="contacto-hero-description">
+                ¿Te interesa nuestra propuesta biotecnológica?
+                ¿Buscas colaborar o conocer más sobre MICROVA?
+                Nos encantaría conversar contigo.
+            </p>
+
+            <a href="#formulario-contacto" class="btn btn-contacto-primary">
+                Escríbenos
+                <i class="bi bi-arrow-down ms-2"></i>
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- INTRODUCCIÓN -->
+    <section class="contacto-intro">
+        <div class="container">
+
+            <div class="contacto-intro-heading text-center">
+                <span class="section-tag">CONECTEMOS</span>
+
+                <h2>
+                    Construyamos juntos nuevas oportunidades.
+                </h2>
+
+                <p>
+                    En MICROVA creemos en el poder de las conexiones.
+                    Queremos conocer a personas y organizaciones que
+                    compartan nuestra visión de innovación y sostenibilidad.
+                </p>
+            </div>
+
+            <div class="row g-4 mt-4">
+
+                <div class="col-md-4">
+                    <div class="contacto-interest-card">
+                        <div class="contacto-interest-icon">
+                            <i class="bi bi-building"></i>
+                        </div>
+
+                        <h3>Empresas y organizaciones</h3>
+
+                        <p>
+                            Conversemos sobre oportunidades de colaboración
+                            y desarrollo de proyectos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contacto-interest-card">
+                        <div class="contacto-interest-icon">
+                            <i class="bi bi-tree"></i>
+                        </div>
+
+                        <h3>Sector agrícola</h3>
+
+                        <p>
+                            Nos interesa conocer los retos y necesidades
+                            de productores y agricultores.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contacto-interest-card">
+                        <div class="contacto-interest-icon">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+
+                        <h3>Aliados e inversionistas</h3>
+
+                        <p>
+                            Exploremos ideas, alianzas y oportunidades
+                            para impulsar la innovación biotecnológica.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FORMULARIO Y CONTACTO -->
+    <section class="contacto-main" id="formulario-contacto">
+
+        <div class="container">
+
+            <div class="row g-5 align-items-start">
+
+                <!-- INFORMACIÓN -->
+                <div class="col-lg-5">
+
+                    <span class="section-tag">
+                        HABLEMOS DE MICROVA
+                    </span>
+
+                    <h2 class="contacto-main-title">
+                        Cuéntanos qué tienes en mente.
+                    </h2>
+
+                    <p class="contacto-main-description">
+                        Cada conversación representa una oportunidad
+                        para aprender, conectar y crear soluciones
+                        con impacto positivo.
+                    </p>
+
+                    <div class="contacto-info-list">
+
+                        <div class="contacto-info-item">
+                            <div class="contacto-info-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+
+                            <div>
+                                <h4>Correo electrónico</h4>
+                                <p>Agrega aquí el correo oficial de MICROVA</p>
+                            </div>
+                        </div>
+
+                        <div class="contacto-info-item">
+                            <div class="contacto-info-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Amazonía peruana</p>
+                            </div>
+                        </div>
+
+                        <div class="contacto-info-item">
+                            <div class="contacto-info-icon">
+                                <i class="bi bi-globe2"></i>
+                            </div>
+
+                            <div>
+                                <h4>Nuestra visión</h4>
+                                <p>Biotecnología para un futuro sostenible.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contacto-note">
+                        <i class="bi bi-leaf"></i>
+                        <p>
+                            Estamos construyendo una nueva forma de
+                            aprovechar los recursos orgánicos.
+                            Nos gustaría que formes parte de esta iniciativa.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULARIO -->
+                <div class="col-lg-7">
+
+                    <div class="contacto-form-card">
+
+                        <div class="contacto-form-heading">
+                            <span>ESCRÍBENOS</span>
+                            <h3>Envíanos tu consulta</h3>
+                            <p>
+                                Completa los siguientes campos.
+                                Nos gustaría conocer tu interés.
+                            </p>
+                        </div>
+
+                        <form id="microvaContactForm">
+
+                            <div class="row g-3">
+
+                                <div class="col-md-6">
+                                    <label for="nombre" class="form-label">
+                                        Nombre completo
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="nombre"
+                                        name="nombre"
+                                        placeholder="Tu nombre"
+                                        required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="correo" class="form-label">
+                                        Correo electrónico
+                                    </label>
+
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="correo"
+                                        name="correo"
+                                        placeholder="nombre@correo.com"
+                                        required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="organizacion" class="form-label">
+                                        Empresa u organización
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="organizacion"
+                                        name="organizacion"
+                                        placeholder="Nombre de tu organización">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="tipoConsulta" class="form-label">
+                                        Motivo de contacto
+                                    </label>
+
+                                    <select
+                                        class="form-select"
+                                        id="tipoConsulta"
+                                        name="tipoConsulta"
+                                        required>
+
+                                        <option value="" selected disabled>
+                                            Selecciona una opción
+                                        </option>
+
+                                        <option value="Productos">
+                                            Información sobre productos
+                                        </option>
+
+                                        <option value="Colaboración">
+                                            Colaboración empresarial
+                                        </option>
+
+                                        <option value="Agricultura">
+                                            Sector agrícola
+                                        </option>
+
+                                        <option value="Inversión">
+                                            Inversión y alianzas
+                                        </option>
+
+                                        <option value="Otro">
+                                            Otro motivo
+                                        </option>
+
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="mensaje" class="form-label">
+                                        Cuéntanos sobre tu consulta
+                                    </label>
+
+                                    <textarea
+                                        class="form-control"
+                                        id="mensaje"
+                                        name="mensaje"
+                                        rows="5"
+                                        placeholder="Escribe tu mensaje aquí..."
+                                        required></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="privacidad"
+                                            required>
+
+                                        <label
+                                            class="form-check-label"
+                                            for="privacidad">
+                                            Acepto que mis datos sean utilizados
+                                            para atender esta consulta.
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-contacto-submit"
+                                        disabled>
+
+                                        Enviar consulta
+                                        <i class="bi bi-arrow-up-right ms-2"></i>
+                                    </button>
+
+                                    <p class="contacto-form-notice">
+                                        Formulario pendiente de conexión con
+                                        un servicio de envío. Próximamente
+                                        habilitaremos la recepción de consultas.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA FINAL -->
+    <section class="contacto-cta">
+
+        <div class="container">
+
+            <div class="contacto-cta-content">
+
+                <span class="section-tag">
+                    JUNTOS PODEMOS TRANSFORMAR
+                </span>
+
+                <h2>
+                    El futuro sostenible se construye conectando ideas.
+                </h2>
+
+                <p>
+                    En MICROVA creemos que la innovación nace cuando
+                    diferentes personas se unen por un propósito común.
+                </p>
+
+                <a href="productos.html" class="btn btn-contacto-primary">
+                    Conoce nuestras líneas
+                    <i class="bi bi-arrow-up-right ms-2"></i>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer-microva">
+        <div class="container">
+
+            <div class="row g-5 footer-main">
+
+                <div class="col-lg-4 col-md-6">
+
+                    <a href="index.html" class="footer-brand">
+                        <img src="img/logo.jpeg"
+                             alt="MICROVA - Biotecnología Amazónica"
+                             class="logo">
+                    </a>
+
+                    <p class="footer-description">
+                        Transformamos el potencial de los residuos
+                        orgánicos en soluciones biotecnológicas
+                        para un futuro más sostenible.
+                    </p>
+
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5>Empresa</h5>
+
+                    <ul>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="proceso.html">Nuestro proceso</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Soluciones</h5>
+
+                    <ul>
+                        <li><a href="productos.html">Biofertilizantes</a></li>
+                        <li><a href="productos.html">Biopesticidas</a></li>
+                        <li><a href="proceso.html">Economía circular</a></li>
+                        <li><a href="proceso.html">Biotecnología</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h5>Contacto</h5>
+
+                    <ul>
+                        <li><a href="contacto.html">Hablemos de MICROVA</a></li>
+                        <li><a href="contacto.html">Escríbenos</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © <span id="currentYear"></span>
+                    MICROVA. Todos los derechos reservados.
+                </p>
+
+                <span>
+                    Biotecnología inspirada en la naturaleza.
+                </span>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- VOLVER ARRIBA -->
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
